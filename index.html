@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MBZ — Marième Bint Zawiya Business Trading</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --navy:#0B1E2D;
+  --navy-2:#0F2A3D;
+  --gold:#C9A227;
+  --gold-light:#E4C766;
+  --terracotta:#B5651D;
+  --olive:#6E7B4A;
+  --cream:#F4ECDA;
+  --ink:#1C231F;
+}
+
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  background:var(--cream);
+  color:var(--ink);
+  font-family:'Jost',sans-serif;
+}
+
+/* NAV */
+nav{
+  position:fixed;
+  top:0;left:0;width:100%;
+  display:flex;
+  justify-content:space-between;
+  padding:18px 6%;
+  background:linear-gradient(to bottom, rgba(11,30,45,0.9), transparent);
+}
+nav.scrolled{background:var(--navy);}
+
+/* HERO */
+#hero{
+  height:100vh;
+  background:radial-gradient(circle,var(--navy-2),var(--navy));
+  display:flex;
+  align-items:center;
+}
+
+/* PRODUITS */
+#produits{background:var(--navy);color:white;}
+
+.btn-primary{
+  background:var(--gold);
+  padding:12px 20px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div>MBZ</div>
+</nav>
+
+<section id="hero">
+  <h1>Le meilleur du Maroc</h1>
+</section>
+
+<section id="produits">
+  <h2>Produits</h2>
+</section>
+
+</body>
+</html>
